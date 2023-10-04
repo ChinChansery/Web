@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    z-index: 3;
+    width: 20vw;
+    height: 100vh;
+    position: fixed;
+    display: block;
+    background-color: bisque;
+}
+.container ul li{
+    list-style: none;
+    padding: 2vh;
+}
+.container ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container li:hover{
+    color: deeppink;
+    background-color: azure;
+    width: 20vw;
+}
+.container a:hover{
+    color: greenyellow;
+}
+.logo h3{
+    background-color: aliceblue;
+    text-align: center;
+    letter-spacing: .4vw;
+}
+.logo span{
+    color: crimson;
+}
+.logo:hover{
+    color: deeppink;
+    font-size: small;
+    cursor: pointer;
+}
+.logo span:hover{
+    color: coral;
+}
+.main{
+    margin-left: 20vw;
+}
+.fa-search{
+    float: left;
+    position: fixed;
+    color: gray;
+    margin-left: 3px;
+}
+.fa-search input{
+    width: 16.5vw;
+    margin-top: 3.5vh;
+    outline: none;
+    background-color: aliceblue;
+    caret-color: crimson;
+}
+.fa-home{
+    margin-top: 8vh;
+}
+.home{
+    background-color: crimson;
+    text-align: center;
+}
+.home :hover{
+    color: cyan;
+    cursor: pointer;
+}
+.home p{
+    padding: 1vh;
+    font-size: 18px;
+    color: aliceblue;
+}
+.home_p img{
+    width: 100%;
+    height: 100%;
+    margin-top: 6.8vh;
+    object-fit: cover;
+}
+.home_p td{
+    width: 25vw;
+    height: 350px;
+    padding: 3vw;
+    margin-left: 1vw;
+    margin-top: -70vh;
+}
+marquee{
+    font-size: 18px;
+    background-color: aquamarine;
+    color: hotpink;
+    font-family: Khmer OS Battambang;
+    position: absolute;
+    cursor: pointer;
+    padding: 5px;
+    width: 78.8vw;
+}
+td{
+    overflow: hidden;
+}
+td img{
+    cursor: pointer;
+}
+.computer_p img:hover{
+    transform: scale(1.2, 1.2);
+}
+td button{
+    color: deeppink;
+    position: relative;
+    background-color: none;
+    margin-top: 100px;
+    cursor: pointer;
+    width: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 1.5px;
+}
+button:hover{
+    background-color: green;
+    color: aliceblue;
+}
+.computer_p{
+    background-color: azure;
+}
+.computer_p td{
+    font-family: Khmer OS Battambang;
+    font-size: 13px;
+    overflow-x: scroll;
+}
+.computer_p button{
+    margin-top: 28vh;
+}
+.computer_p img{
+    object-fit: cover;
+    width: 22vw;
+    height: 26vh;
+}
+.phone_p img{
+    object-fit: contain;
+    width: 15vw;
+    height: 25vh;
+}
+.phone_p td{
+    font-family: Khmer OS Battambang;
+    font-size: 13px;
+}
+td:hover{
+    color: blue;
+}
+.phone_p{
+    background-color: white;
+}
+.phone_p button{
+    margin-top: 140px;
+}
+.electronic_p img{
+    object-fit: cover;
+    width: 25vw;
+    height: 35vh;
+    margin: .5vw;
+    margin-top: -4vh;
+}
+.electronic_p img:hover{
+    transform: scale(1.1,1.05);
+}
+.electronic_p td{
+    border: 10px;
+    background: #000;
+    width: 40vw;
+    height: 35vh;
+}
+.electronic_p button{
+    z-index: 1;
+    position: absolute;
+    margin-left: -26vw;
+    width: 26.1vw;
+    margin-top: 30vh;
+}
+.contact_p{
+    font-size: 18px;
+    text-align: center;
+}
+.contact_p .fa{
+    color: blue;
+}
+.contact_p a{
+    text-decoration: none;
+    color: blue;
+}
+.contact_p span{
+    color: lightsteelblue;
+}
+.contact_p span:hover{
+    color: crimson;
+}
+

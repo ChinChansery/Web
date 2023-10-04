@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/Style.css">
+    <title>Electronic Store</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h3>Electronic <span>Store</span>®</h3>
+        </div>
+        <ul>
+            <p class="fa fa-search"><input type="search" placeholder="Search"></p>
+            <li class="fa fa-home"><a href="#home">Home</a></li>
+            <li><a href="#computer">Computer</a></li>
+            <li><a href="#phone">Smart Phone</a></li>
+            <li><a href="#electronic">Hard Disk Drive</a></li>
+            <li><a href="#contact">Other</a></li>
+        </ul>
+    </div>
+    <div class="main">
+    <div class="home" id="home"><p>Home</p></div>
+    <marquee onmouseover="stop()" onmouseout="start()">មានលក់កុំព្យូទ័រ ទូរស័ព្ទដៃទំនើបៗជាច្រើនម៉ូដែលសម្រាប់តម្រូវការរបស់លោកអ្នក​ សូមអរគុណ​​ ។</marquee>
+    <div class="home_p">
+        <img src="./IMG/electornic store2 19,07,2022.jpg">
+    </div>
+    <div class="home" id="computer"><p>Computer</p></div>
+    <div class="computer_p">
+        <table>
+            <tr>
+                <td><img src="./IMG/photo_2022-02-24_00-02-14.jpg">
+                </td>
+                <td>LENOVO Y520(Gaming&Design) Grade A / CPU Core i7-7700HQ @2.80Ghz (8CPUs) RAM 16GB/SSD 128GB VGA1 intel 8GB/VGA2 GTX 1050 up to 10GB/Screen FHD 15.6"</td>
+                <td><button type="button" id="btn1" onclick="check_price1()">View</button></td>
+            </tr>
+            <tr>
+                <td><img src="./IMG/photo_2022-02-24_00-01-45.jpg">
+                </td>
+                <td>LENOVO LEGION Y520(Gaming&Design) Grade A / CPU Core i7-7700HQ @2.80Ghz(8CPUs) RAM 8GB/SSD 512GB VGA1 intel 4GB/VGA2 NVIDIA GTX1050 up to 6GB/Screen FHD 15.6"</td>
+                <td><button type="button" id="btn2" onclick="check_price2()">View</button></td>
+            </tr>           
+            <tr>
+                <td><img src="./IMG/photo_2022-02-24_00-02-21.jpg">
+                </td>
+                <td>LENOVO LIGION Y7000(Gaming&Design) 99% / CPU Core i5-9300HQ @2.40Ghz(8CPUs) RAM 8GB/SSD 256GB + HDD 1TB VGA NVIDIA GTX 1650 up to 8GB/Screen FHD 1080 15.6"/Key Light Red</td>
+                <td><button type="button" id="btn3" onclick="check_price3()">View</button></td>
+            </tr>            
+            <tr>
+                <td ><img src="./IMG/photo_2022-02-24_00-02-26.jpg">
+                </td>
+                <td>LENOVO LEGION Y520(Gaming&Design) Grade A / CPU Core i7-7700HQ @2.80Ghz(8CPUs) RAM 8GB/SSD 256GB + HDD 500GB VGA1 intel 4GB/VGA2 GTX 1050Ti up to 8Gb/Screen FHD 15.6"</td>
+                <td><button type="button" id="btn4" onclick="check_price4()">View</button></td>
+            </tr>            
+            <tr>
+                <td ><img src="./IMG/photo_2022-02-24_00-02-38.jpg">
+                </td>
+                <td>LENOVO IDEAPAD 700(Gaming&Design) Geade A / CPU Core i7-6700HQ @2.60Ghz(8CPUs) RAM 8Gb/SSD 128+HDD 1TB VGA1 intel 4GB/VGA2 GTX 950M up to 8GB/Screen FHD 15.6"/Key Light</td>
+                <td><button type="button" id="btn5" onclick="check_price5()">View</button></td>
+            </tr>            
+            <tr>
+                <td ><img src="./IMG/photo_2022-02-24_00-02-50.jpg">
+                </td>
+                <td>MSI GF63 Thin8RC(Gaming&Design) 98% / CPU Core i5-8300HQ @2.30Ghz(8CPUs) RAM 8GB/SSD 128GB + HDD 1TB VGA1 intel 4GB/VGA2 GTX 1050 4GB up to 8GB/Screen FHD 15.6"</td>
+                <td><button type="button" id="btn6" onclick="check_price6()">View</button></td>
+            </tr>            
+            <tr>
+                <td ><img src="./IMG/photo_2022-02-24_00-02-55.jpg">
+                </td>
+                <td>ASUS N551JM(Gaming&Design) 99% / CPU Core i7-4710HQ @2.50Ghz(8CPUs) RAM 8GB/SSD 128GB + HDD 500GB VGA1 intel 2GB/VGA2 GTX 860M 4GB up to 8GB/Screen FHD 15.6"/Key Light</td>
+                <td><button type="button" id="btn7" onclick="check_price7()">View</button></td>
+            </tr>            
+        </table>   
+    </div>
+    <div class="home" id="phone"><p>Smart Phone</p></div>
+    <div class="phone_p">
+        <table>
+            <tr>
+                <td>
+                    <img src="./IMG/618cA+Uah5L._AC_SX522_.jpg">
+                </td>
+                <td>Apple iPhone XS Max iOS 12 up to iOS 15.3 /Gold/ 64GB/256GB/512GB storage / Screen 6.5" Camera 12MP, RAM 4GB, Battery 3174mAh</td>
+                <td><button type="button" id="btn8" value="" onclick="check_p1()">View</button></td>
+            </tr>            
+            <tr>
+                <td>
+                    <img src="./IMG/swappie-iphone-11-pro-max-midnight-green-back.png">
+                </td>
+                <td>Apple iPhone 11 Pro Max iOs 13 up to 15.3 / Black/ 64GB/256GB/512GB storage / Screen 6.5" Camera 12MP, RAM 4GB, Battery 3969mAh</td>
+                <td><button type="button" id="btn9" value="" onclick="check_p2()">View</button></td>
+            </tr>          
+            <tr>
+                <td>
+                    <img src="./IMG/iphone11-black-select-2019.png">
+                </td>
+                <td>Apple iPhone 11 iOS 13 up to iOS 15.3 /Black/ 64GB/128GB/256GB storage / Screen 6.1" Camera 12MP, RAM 4GB, Battery 3110mAh</td>
+                <td><button type="button" id="btn10" value="" onclick="check_p3()">View</button></td>
+            </tr>            
+            <tr>
+                <td>
+                    <img src="./IMG/iphone-12-purple-select-2021.jpg">
+                </td>
+                <td>Apple iPhone 11 iOS 13 up to iOS 15.3 /Purple/ 64GB/128GB/256GB storage / Screen 6.1" Camera 12MP RAM 4GB Battery 3110mAh</td>
+                <td><button type="button" id="btn11" value="" onclick="check_p4()">View</button></td>
+            </tr>            
+            <tr>
+                <td>
+                    <img src="./IMG/swappie-product-iphone-12-pro-max-pacific-blue-back.png">
+                </td>
+                <td>Apple iPhone 12 Pro Max iOS 14.1 up to 15.3 /Black/ 128GB/256GB/512GB storage / Screen 6.7" Camera 12MP,RAM 6GB,Battery 3687mAh</td>
+                <td><button type="button" id="btn12" value="" onclick="check_p5()">View</button></td>
+            </tr>          
+            <tr>
+                <td>
+                    <img src="./IMG/oppo-f17-pro-pakistan-priceoye-rk40l.jpg">
+                </td>
+                <td>Oppo F17 Pro Android 10 ColorOS 7.2 / 128GB storage,microSDXC / Screen 6.43" Camera 48MP, RAM 8GB, Battery 4015mAh</td>
+                <td><button type="button" id="btn13" value="" onclick="check_p6()">View</button></td>
+            </tr>            
+            <tr>
+                <td>
+                    <img src="./IMG/xiaomi-redmi-7.jpg">
+                </td>
+                <td>Xiaomi Redmi 7 Android 9.0 Pie up to Android 10 MIUI 12 / 16GB/32GB/64GB storage / Screen 6.26" Camera 12MP, RAM 2-4GB, Battery 4000mAh</td>
+                <td><button type="button" id="btn14" value="" onclick="check_p7()">View</button></td>
+            </tr>            
+            <tr>
+                <td>
+                    <img src="./IMG/samsung-galaxy-s10-plus-.jpg">
+                </td>
+                <td>Samsung Galaxy S10+ Android 9.0 up to Android 12 One UI 4 / 128GB/512GB/1TB storage,microSDXC / Screen 6.4" Camera 16MP, RAM 8-12GB, Battery 4100mAh</td>
+                <td><button type="button" id="btn15" value="" onclick="check_p8()">View</button></td>
+            </tr>            
+            <tr>
+                <td>
+                    <img src="./IMG/samsung-galaxy-s20-plus.jpg">
+                </td>
+                <td>Samsung Galaxy S20+ Android 10 up to Android 11 One UI 3.0 / 128GB storage,microSDXC / Screen 6.7" Camera 64MP, RAM 8GB, Battery 4500mAh</td>
+                <td><button type="button" id="btn16" value="" onclick="check_p9()">View</button></td>
+            </tr>           
+        </table>
+    </div>
+    <div class="home" id="electronic"><p>Hard Disk Drive</p></div>
+    <div class="electronic_p">
+        <table>
+			<tr>
+				<td>
+					<img src="./IMG/M2.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h1()">View</button>
+				</td>
+                
+				<td>
+					<img src="./IMG/M2-1.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h2()">View</button>
+				</td>
+				<td>
+					<img src="./IMG/M2-2.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h3()">View</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="./IMG/M2-3.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h4()">View</button>
+				</td>
+				<td>
+					<img src="./IMG/M2-4.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h5()">View</button>
+				</td>
+				<td>
+					<img src="./IMG/SATA-M2.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h6()">View</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="./IMG/SATA-III-SSD.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h7()">View</button>
+				</td>
+				<td>
+					<img src="./IMG/SATA-III-SSD-3.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h8()">View</button>
+				</td>
+				<td>
+					<img src="./IMG/SATA-III-SSD-4.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h9()">View</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="./IMG/SATA-III-SSD-7.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h10()">View</button>
+				</td>
+				<td>
+					<img src="./IMG/SATA-III-SSD-8.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h11()">View</button>
+				</td>
+				<td>
+					<img src="./IMG/SATA-III-SSD-10.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h12()">View</button>
+				</td>
+			</tr>
+			<tr>
+                <td>
+					<img src="./IMG/SATA-III-SSD-12.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h13()">View</button>
+				</td>
+				<td>
+					<img src="./IMG/SATA-III-SSD-14.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h14()">View</button>
+				</td>
+                <td>
+					<img src="./IMG/SATA-III-SSD-11.jpg">
+                    <button type="button" id="btn16" value="" onclick="check_h15()">View</button>
+				</td>
+            </tr>
+		</table>
+    </div>
+    <div class="home" id="contact"><p>Contact</p></div>
+    <div class="contact_p">
+        <p>Tel:</p>
+        <p>Telegram:</p>
+        <li class="fa fa-facebook"><p><a href="https://web.facebook.com/campaign/landing.php?campaign_id=1635645242&extra_1=s%7Cc%7C313665943394%7Ce%7Cfacebook+login%7C&placement&creative=313665943394&keyword=facebook+login&partner_id=googlesem&extra_2=campaignid%3D1635645242%26adgroupid%3D67924221572%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1409285535%26loc_physical_ms%3D1009829%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMInor0wZyK-QIVR05gCh2MSg2EEAAYASAAEgIBSPD_BwE&_rdc=1&_rdr">facebook</a></p></li>
+        <li class="fa fa-instagram"><p><a href="https://www.instagram.com/accounts/login/">instagram</a></p></li>
+        <p><span>Address: N°:101, Street: Russian Federation, Songkat: Teuk Thle, Khan: Sensok, City: Phnom Penh.</span></p>
+        <p>©Copy Right By: Electronic Store</p>
+    </div>
+    </div>
+    <script type="text/javascript">
+        function check_price1(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/photo_2022-02-24_00-02-14.jpg' width='550px' hight='550px'><p>LENOVO Y520(Gaming&Design) Grade A / CPU Core i7-7700HQ<br/>@2.80Ghz (8CPUs) RAM 16GB/SSD 128GB VGA1 intel 8GB<br/>VGA2 GTX 1050 up to 10GB/Screen FHD 15.6 inch</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;' name='Lenovo Y520' value='609' id='payment' onclick='clickforpay1()'>Buy Now</button>");
+        }
+        function clickforpay1(){
+                document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+                document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");
+                var pay = parseInt(document.getElementById("payment").value);
+                var brand = document.getElementById("payment").name;
+                alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_price2(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/photo_2022-02-24_00-01-45.jpg' width='550px' hight='550px'><p>LENOVO LEGION Y520(Gaming&Design) Grade A / CPU Core i7-7700HQ<br/>@2.80Ghz(8CPUs) RAM 8GB/SSD 512GB VGA1 intel 4GB<br/>VGA2 NVIDIA GTX1050 up to 6GB/Screen FHD 15.6 inch</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;' name='Lenovo Legion Y520' value='599' id='payment' onclick='clickforpay2()'>Buy Now</button>");
+        }
+        function clickforpay2(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_price3(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/photo_2022-02-24_00-02-21.jpg' width='550px' hight='550px'><p>LENOVO LIGION Y7000(Gaming&Design) 99% / CPU Core i5-9300HQ<br/>@2.40Ghz(8CPUs) RAM 8GB/SSD 256GB + HDD 1TB VGA NVIDIA GTX 1650<br/>up to 8GB/Screen FHD 1080 15.6 inch/Key Light Red</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='Lenovo Legion Y7000' value='679' id='payment' onclick='clickforpay3()'>Buy Now</button>");
+        }
+        function clickforpay3(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_price4(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/photo_2022-02-24_00-02-26.jpg' width='550px' hight='550px'><p>LENOVO LEGION Y520(Gaming&Design) Grade A / CPU Core i7-7700HQ<br/>@2.80Ghz(8CPUs) RAM 8GB/SSD 256GB + HDD 500GB VGA1 intel 4GB<br/>VGA2 GTX 1050Ti up to 8Gb/Screen FHD 15.6 inch</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='Lenovo Legion Y520' value='669' id='payment' onclick='clickforpay4()'>Buy Now</button>");
+        }
+        function clickforpay4(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_price5(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/photo_2022-02-24_00-02-38.jpg' width='550px' hight='550px'><p>LENOVO IDEAPAD 700(Gaming&Design) Geade A / CPU Core i7-6700HQ<br/>@2.60Ghz(8CPUs) RAM 8Gb/SSD 128+HDD 1TB VGA1 intel 4GB<br/>VGA2 GTX 950M up to 8GB/Screen FHD 15.6 inch/Key Light</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='Lenovo IDEAPAD 700' value='519' id='payment' onclick='clickforpay5()'>Buy Now</button>");
+        }
+        function clickforpay5(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");               
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_price6(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/photo_2022-02-24_00-02-50.jpg' width='550px' hight='550px'><p>MSI GF63 Thin8RC(Gaming&Design) 98% / CPU Core i5-8300HQ<br/>@2.30Ghz(8CPUs) RAM 8GB/SSD 128GB + HDD 1TB VGA1 intel 4GB<br/>VGA2 GTX 1050 4GB up to 8GB/Screen FHD 15.6 inch</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='MSI GF63 Thin8RC' value='619' id='payment' onclick='clickforpay6()'>Buy Now</button>");
+        }
+        function clickforpay6(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_price7(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/photo_2022-02-24_00-02-55.jpg' width='550px' hight='550px'><p>ASUS N551JM(Gaming&Design) 99% / CPU Core i7-4710HQ<br/>@2.50Ghz(8CPUs) RAM 8GB/SSD 128GB + HDD 500GB VGA1 intel 2GB<br/>VGA2 GTX 860M 4GB up to 8GB/Screen FHD 15.6 inch/Key Light</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='ASUS N551JM' value='469' id='payment' onclick='clickforpay7()'>Buy Now</button>");
+        }
+        function clickforpay7(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+
+
+        function check_p1(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/618cA+Uah5L._AC_SX522_.jpg' style='width :20vw ; hight : 90vh';><p>Apple iPhone XS Max iOS 12 up to iOS 15.3 /Gold/ 64GB/256GB/512GB storage / Screen 6.5 inch Camera 12MP, RAM 4GB, Battery 3174mAh</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='Iphone Xs Max' value='599' id='payment' onclick='clickforpay8()'>Buy Now</button>");
+        }
+        function clickforpay8(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");               
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_p2(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/swappie-iphone-11-pro-max-midnight-green-back.png' style='width :20vw ; hight : 90vh';><p>Apple iPhone 11 Pro Max iOs 13 up to 15.3 / Black/ 64GB/256GB/512GB storage / Screen 6.5 inch Camera 12MP, RAM 4GB, Battery 3969mAh</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='Iphone 11 Pro Max' value='599' id='payment' onclick='clickforpay9()'>Buy Now</button>");
+        }
+        function clickforpay9(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_p3(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/iphone11-black-select-2019.png' style='width :20vw ; hight : 90vh';><p>Apple iPhone 11 iOS 13 up to iOS 15.3 /Black/ 64GB/128GB/256GB storage / Screen 6.1 inch Camera 12MP, RAM 4GB, Battery 3110mAh</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='Iphone 11' value='599' id='payment' onclick='clickforpay10()'>Buy Now</button>");
+        }
+        function clickforpay10(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_p4(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/iphone-12-purple-select-2021.jpg' style='width :20vw ; hight : 90vh';><p>Apple iPhone 11 iOS 13 up to iOS 15.3 /Purple/ 64GB/128GB/256GB storage / Screen 6.1 inch Camera 12MP RAM 4GB Battery 3110mAh</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='Iphone 11' value='599' id='payment' onclick='clickforpay11()'>Buy Now</button>");
+        }
+        function clickforpay11(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_p5(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/swappie-product-iphone-12-pro-max-pacific-blue-back.png' style='width :20vw ; hight : 90vh';><p>Apple iPhone 12 Pro Max iOS 14.1 up to 15.3 /Black/ 128GB/256GB/512GB storage / Screen 6.7 inch Camera 12MP,RAM 6GB,Battery 3687mAh</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='Iphone 12 Pro Max' value='599' id='payment' onclick='clickforpay12()'>Buy Now</button>");
+        }
+        function clickforpay12(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_p6(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/oppo-f17-pro-pakistan-priceoye-rk40l.jpg' style='width :20vw ; hight : 90vh';><p>Oppo F17 Pro Android 10 ColorOS 7.2 / 128GB storage,microSDXC / Screen 6.43 inch Camera 48MP, RAM 8GB, Battery 4015mAh</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='Oppo F17 Pro' value='599' id='payment' onclick='clickforpay13()'>Buy Now</button>");
+        }
+        function clickforpay13(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_p7(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/xiaomi-redmi-7.jpg' style='width :20vw ; hight : 90vh';><p>Xiaomi Redmi 7 Android 9.0 Pie up to Android 10 MIUI 12 / 16GB/32GB/64GB storage / Screen 6.26  inch Camera 12MP, RAM 2-4GB, Battery 4000mAh</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='Xiaomi Redmi 7' value='599' id='payment' onclick='clickforpay14()'>Buy Now</button>");
+        }
+        function clickforpay14(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_p8(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/samsung-galaxy-s10-plus-.jpg' style='width :20vw ; hight : 90vh';><p>Samsung Galaxy S10+ Android 9.0 up to Android 12 One UI 4 / 128GB/512GB/1TB storage,microSDXC / Screen 6.4 inch Camera 16MP, RAM 8-12GB, Battery 4100mAh</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='Samsung Galaxy S10+' value='599' id='payment' onclick='clickforpay15()'>Buy Now</button>");
+        }
+        function clickforpay15(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+        function check_p9(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/samsung-galaxy-s20-plus.jpg' style='width :20vw ; hight : 90vh';><p>Samsung Galaxy S20+ Android 10 up to Android 11 One UI 3.0 / 128GB storage,microSDXC / Screen 6.7 inch Camera 64MP, RAM 8GB, Battery 4500mAh</p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='Samsung Galaxy S20+' value='599' id='payment' onclick='clickforpay16()'>Buy Now</button>");
+        }
+        function clickforpay16(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");               
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nPayment = "+pay+" $");
+        }
+
+
+        function check_h1(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/M2.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='42' id='payment' onclick='clickforpay17()'>Buy Now</button>");
+        }
+        function clickforpay17(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");               
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 256GB NVME\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h2(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='../IMG/M2-1.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='38' id='payment' onclick='clickforpay18()'>Buy Now</button>");
+        }
+        function clickforpay18(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 256GB SATA\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h3(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/M2-2.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='29' id='payment' onclick='clickforpay19()'>Buy Now</button>");
+        }
+        function clickforpay19(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 128GB NVME\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h4(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/M2-3.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='123' id='payment' onclick='clickforpay20()'>Buy Now</button>");
+        }
+        function clickforpay20(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");    
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 1TB NVME\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h5(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/M2-4.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='67' id='payment' onclick='clickforpay21()'>Buy Now</button>");
+        }
+        function clickforpay21(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 512GB M2 SATA\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h6(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/SATA-III-SSD-4.jpg' width='550px' hight='550px'></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='25' id='payment' onclick='clickforpay22()'>Buy Now</button>");
+        }
+        function clickforpay22(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");               
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 128GB SATA\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h7(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/SATA-III-SSD.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='22' id='payment' onclick='clickforpay23()'>Buy Now</button>");
+        }
+        function clickforpay23(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 120GB SATA\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h8(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/SATA-III-SSD-3.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='36' id='payment' onclick='clickforpay24()'>Buy Now</button>");
+        }
+        function clickforpay24(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 256GB SATA\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h9(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/SATA-III-SSD-4.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='25' id='payment' onclick='clickforpay25()'>Buy Now</button>");
+        }
+        function clickforpay25(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 128GB SATA\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h10(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/SATA-III-SSD-7.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='35' id='payment' onclick='clickforpay26()'>Buy Now</button>");
+        }
+        function clickforpay26(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");               
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 256GB SATA\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h11(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/SATA-III-SSD-8.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='55' id='payment' onclick='clickforpay27()'>Buy Now</button>");
+        }
+        function clickforpay27(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 480GB SATA\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h12(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/SATA-III-SSD-10.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='65' id='payment' onclick='clickforpay28()'>Buy Now</button>");
+        }
+        function clickforpay28(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 512GB M.SATA\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h13(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/SATA-III-SSD-12.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='65' id='payment' onclick='clickforpay29()'>Buy Now</button>");
+        }
+        function clickforpay29(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 512GB SATA\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h14(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/SATA-III-SSD-14.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='115' id='payment' onclick='clickforpay30()'>Buy Now</button>");
+        }
+        function clickforpay30(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='./IMG/AC.jpg'><img src='./IMG/vs.png'></div>");                
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 1TB SATA\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+        function check_h15(){
+            document.write("<a href='index.html' style='font-weight: bold; text-decoration: none; font-size: 30px;'>⇽</a><table><tr><td><img src='./IMG/SATA-III-SSD-11.jpg' width='550px' hight='550px'><p></p></td></tr></table>");
+            document.write("<button type='submit' style='cursor: pointer;'  name='King Fast' value='68' id='payment' onclick='clickforpay31()'>Buy Now</button>");
+        }
+        function clickforpay31(){
+            document.write("<link type='text/css' rel='stylesheet' href='./CSS/Scan_Pay.css'>");
+            document.write("<div class='scan_pay'><img src='./IMG/ABA.jpg'><img src='.cls/IMG/AC.jpg'><img src='./IMG/vs.png'></div>");
+            var pay = parseInt(document.getElementById("payment").value);
+            var brand = document.getElementById("payment").name;
+            alert("Brand Name = "+brand+"\nSpace : 512GB NVME\nWarranty : 3 Year\nPayment = "+pay+" $");
+        }
+    </script>
+</body>
+</html>
